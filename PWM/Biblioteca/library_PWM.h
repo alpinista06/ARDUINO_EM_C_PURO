@@ -32,6 +32,7 @@
  * @param u8_prescaler_adc [Configura o prescaler da conversão, default 128]
  */
 void configura_PWM(uint8_t u8_pino_PWM, uint8_t u8_PWM_mode, uint8_t u8_prescaler_PWM);
+void debbuger_init_PWM();
 
 /**
  * [realizar_leitura analógica]
@@ -39,5 +40,6 @@ void configura_PWM(uint8_t u8_pino_PWM, uint8_t u8_PWM_mode, uint8_t u8_prescale
  * @return          [retorna o resultado da conversão AD]
  */
 void Pulso_PWM(uint8_t Valor);
+void debbuger_write_PWM(uint16_t VALOR);
 
 #endif /*_LEITURA_ANALOGICA_H_*/
