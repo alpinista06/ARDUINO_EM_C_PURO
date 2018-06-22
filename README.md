@@ -2,6 +2,10 @@
 
 Atividades realizadas para a disciplina de sistemas embarcados ministradas pelo professor [Fábio Vincezi](https://www.omegaflix.com/) para o curso de [Eng. Controle e Automação](http://www.feelt.ufu.br/Engenharia-de-Controle-e-Automacao) da **Universidade Federal de Uberlândia**.
 
+### OBSERVAÇÃO
+![](img/importante.png)
+Todos os códigos estão comentados linha a linha para um melhor entendimento, basta clicar em **Codigo** na seção desejada para conseguir acessá-lo.
+
 ## Cronograma das Atividades
 
 - [x] 1° Atividade **Input-Output**
