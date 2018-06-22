@@ -19,11 +19,11 @@ Para compreender os conceitos usados na geração dos códigos para as atividade
 
 ## Overview
 
-* Na primeira atividade o conceito de [operações bitwise( bit a bit )](https://www.embarcados.com.br/bits-em-linguagem-c/) foi explanado. Fomos ainda apresntados aos conceitos rotação de bits e [registradores](https://pt.wikipedia.org/wiki/Registrador_(inform%C3%A1tica)). [Codigo](https://github.com/alpinista06/ARDUINO_EM_C_PURO/tree/master/Input-Output)
+* Na primeira atividade o conceito de [operações bitwise( bit a bit )](https://www.embarcados.com.br/bits-em-linguagem-c/) foi explanado. Fomos ainda apresentados aos conceitos rotação de bits e [registradores](https://pt.wikipedia.org/wiki/Registrador_(inform%C3%A1tica)). [Codigo](https://github.com/alpinista06/ARDUINO_EM_C_PURO/tree/master/Input-Output)
 
 ![](img/bitwise.png)
 
-* Na segunda atividade estudamos como funciona um [conversão Analógico-Digital](https://pt.wikipedia.org/wiki/Conversor_anal%C3%B3gico-digital), como e onde empregá-la. [Codigo](https://github.com/alpinista06/ARDUINO_EM_C_PURO/tree/master/AD)
+* Na segunda atividade estudamos como funciona uma [conversão Analógico-Digital](https://pt.wikipedia.org/wiki/Conversor_anal%C3%B3gico-digital), como e onde empregá-la. [Codigo](https://github.com/alpinista06/ARDUINO_EM_C_PURO/tree/master/AD)
 
 ![](img/ad.jpg)
 
@@ -31,12 +31,11 @@ Para compreender os conceitos usados na geração dos códigos para as atividade
 
 ![](img/PWM.png)
 
-* Na quarta atividade boas práticas de programação foram inseridas com o implemento de [maquinas de estados](https://pt.wikipedia.org/wiki/M%C3%A1quina_de_estados_finita) no código C. [Codigo](https://github.com/alpinista06/ARDUINO_EM_C_PURO/tree/master/PWM)
+* Na quarta atividade boas práticas de programação foram inseridas com o implemento de [maquinas de estados](https://pt.wikipedia.org/wiki/M%C3%A1quina_de_estados_finita) no código C. [Codigo](https://github.com/alpinista06/ARDUINO_EM_C_PURO/tree/master/Maquina_de_estados)
 
 ![](img/FSM.jpg)
 
-* Na quinta atividade a [comunicação serial](https://pt.wikipedia.org/wiki/Comunica%C3%A7%C3%A3o_serial) foi explicada e implementada. [Codigo](https://github.com/alpinista06/ARDUINO_EM_C_PURO/tree/master/Maquina_de_estados)
-
+* Na quinta atividade a [comunicação serial](https://pt.wikipedia.org/wiki/Comunica%C3%A7%C3%A3o_serial) foi explicada e implementada. Vale ressaltar que no  [Codigo](https://github.com/alpinista06/ARDUINO_EM_C_PURO/blob/master/USART/UART_comunication.c) que a função *** uart_putchar *** envia apenas 1 caractere por ciclo , mas exitem outras formas de se enviar palavras maiores, ainda é necessário fazer a conversão de de inteiro para caractere usando a função ***itoa*** pois a uart só trabalha com dados do tipo **char**  
 ![](img/UAT.png)
 
 * Na sexta atividade os conceitos de medição de tempo usando os [Timers](https://www.embarcados.com.br/timers-do-atmega328-no-arduino/) e [tratamento de rotinas de interrupção](https://pt.wikipedia.org/wiki/Interrup%C3%A7%C3%A3o_de_hardware) foram discutidos e implementados. [Codigo](https://github.com/alpinista06/ARDUINO_EM_C_PURO/tree/master/Timer1-ISR/src)
